@@ -1,0 +1,48 @@
+  .heading
+  {
+    font-size: 23px !important;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    float: none;
+    background: white ; 
+    border-radius: 20px; 
+    padding: 10px;
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  span {
+    white-space: pre-line;
+  }
+  .copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:dimgrey;
+    color:whitesmoke;
+    height: 25px;
+    font-size: 20px;
+  }
+  canvas{
+    border: 5px dashed black;
+    animation-name: ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes  {
+    from {boxshadow: 10px 10px 10px red}
+    to {boxshadow: 10px 10px 10px yellow}
+  }
